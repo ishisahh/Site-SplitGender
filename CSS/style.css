@@ -1,0 +1,179 @@
+body {
+  padding-top: 3rem;
+  display: block;
+  text-align: center;
+  color: #E2E2E2;
+  background: #E84855;
+  font-family: "Lilita One", sans-serif;
+  font-size: 150%;
+  font-style: normal;
+  overflow-x: hidden;
+
+
+}
+
+p {
+  font-size: larger;
+}
+
+.Topo {
+  display: block;
+  align-items: flex-start;
+  justify-content: center;
+
+
+}
+
+.Topo img {
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  margin-bottom: 25px;
+
+}
+
+.Sinopse {
+
+  background-color: #058ED9;
+  padding: 25px;
+  margin: 50px;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: space-between;
+
+}
+
+.Sinopse img {
+  width: 40%;
+  height: 40%;
+  margin-left: 30px;
+}
+
+.Sinopse h1 {
+  text-align: center;
+}
+
+
+.Botão {
+  border-radius: 20px;
+  padding: 10px;
+  height: 100px;
+  max-width: 500px;
+  max-height: 500px;
+  margin: auto;
+}
+
+.Botão button {
+  color: #E2E2E2;
+  background-color: #058ED9;
+  width: 70%;
+  height: 70%;
+  border-radius: 20px;
+}
+
+button:hover {
+  transition: 150ms ease-in-out;
+  transform: scale(1.2);
+  border: 5px;
+  box-shadow: 0px 0px 50px 10px white;
+}
+
+.ODS {
+  background-color: #D19C1D;
+  border-radius: 20px;
+  color: #483D3F;
+  padding: 25px;
+  margin: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  text-align: right;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ODS img {
+  margin: auto;
+}
+
+.ODS h1 {
+  text-align: center;
+}
+
+
+.Equipe {
+
+  background-color: #483D3F;
+  border-radius: 20px;
+  color: #E2E2E2;
+  padding: 5px;
+  margin: 50px;
+
+
+
+}
+
+.Foto {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+
+
+}
+
+.Topo img:hover {
+  transition: 150ms ease-in-out;
+  transform: scale(1.05);
+  border: 5px;
+  box-shadow: 0px 0px 50px 10px white;
+}
+
+
+
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: #332B2C;
+  z-index: 1000;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  padding: 0.5px;
+}
+
+.navbar li {
+  margin: 0.1rem;
+
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: inline-block;
+  padding: 15px;
+}
+
+.navbar ul li a {
+  color: #ffffff;
+}
+
+
+.galeria {
+  height: 50%;
+  width: 50%;
+  padding: 25px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
